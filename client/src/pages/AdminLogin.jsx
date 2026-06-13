@@ -2,6 +2,7 @@ import { LockKeyhole } from 'lucide-react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import logo from '../assets/anaya-global-logo.png';
+import ThemeToggle from '../components/ThemeToggle.jsx';
 import api from '../services/api.js';
 
 export default function AdminLogin() {
@@ -27,6 +28,9 @@ export default function AdminLogin() {
 
   return (
     <main className="grid min-h-screen place-items-center bg-platinum px-4">
+      <div className="fixed right-5 top-5">
+        <ThemeToggle />
+      </div>
       <form onSubmit={login} className="w-full max-w-md rounded-lg border border-silver bg-white p-7 shadow-soft">
         <img src={logo} alt="Anaya Global" className="mx-auto h-24 w-24 object-contain" />
         <div className="mt-4 text-center">

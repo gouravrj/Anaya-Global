@@ -12,6 +12,10 @@ body {
   background: #f4f7fa;
 }
 
+.dark body {
+  background: #07111f;
+}
+
 button,
 a,
 input,
@@ -41,4 +45,45 @@ textarea {
 .focus-ring:focus {
   outline: 3px solid rgba(13, 127, 194, 0.35);
   outline-offset: 2px;
+}
+
+.dark .bg-platinum {
+  background-color: #07111f;
+}
+
+.dark .bg-white {
+  background-color: #0d1b2c;
+}
+
+.dark .bg-navy {
+  background-color: #06111f;
+}
+
+.dark .text-ink,
+.dark .text-navy,
+.dark .text-slate-600,
+.dark .text-slate-700 {
+  color: #e8eef5;
+}
+
+.dark .text-silver {
+  color: #b9c7d6;
+}
+
+.dark .border-silver,
+.dark .border-silver\/70,
+.dark .border-silver\/80 {
+  border-color: rgba(215, 226, 236, 0.18);
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #101f32;
+  color: #f8fafc;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #94a3b8;
 }

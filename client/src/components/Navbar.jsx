@@ -2,6 +2,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/anaya-global-logo.png';
+import ThemeToggle from './ThemeToggle.jsx';
 
 const links = [
   ['Home', '/'],
@@ -23,14 +24,17 @@ export default function Navbar() {
           <span className="text-xl font-bold text-navy">Anaya Global</span>
         </NavLink>
 
-        <button
-          type="button"
-          className="focus-ring inline-flex h-11 w-11 items-center justify-center rounded-md border border-silver text-navy lg:hidden"
-          onClick={() => setOpen((value) => !value)}
-          aria-label="Toggle navigation"
-        >
-          {open ? <X size={22} /> : <Menu size={22} />}
-        </button>
+        <div className="flex items-center gap-2 lg:hidden">
+          <ThemeToggle />
+          <button
+            type="button"
+            className="focus-ring inline-flex h-11 w-11 items-center justify-center rounded-md border border-silver text-navy dark:border-white/15 dark:text-white"
+            onClick={() => setOpen((value) => !value)}
+            aria-label="Toggle navigation"
+          >
+            {open ? <X size={22} /> : <Menu size={22} />}
+          </button>
+        </div>
 
         <div className="hidden items-center gap-1 lg:flex">
           {links.map(([label, path]) => (
@@ -44,6 +48,7 @@ export default function Navbar() {
               {label}
             </NavLink>
           ))}
+          <ThemeToggle />
         </div>
       </nav>
 
