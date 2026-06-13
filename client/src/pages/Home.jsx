@@ -1,15 +1,22 @@
-import { ArrowRight, BarChart3, CheckCircle2, Headphones, ShieldCheck, Users } from 'lucide-react';
+import { ArrowRight, BarChart3, CheckCircle2, Headphones, ShieldCheck, Users, MonitorCog, LifeBuoy, Laptop, Code2, BriefcaseBusiness} from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ContactForm from '../components/ContactForm.jsx';
 import InfoCard from '../components/InfoCard.jsx';
 import SectionHeader from '../components/SectionHeader.jsx';
 import logo from '../assets/anaya-global-logo.png';
 
+
 const services = [
-  [BarChart3, 'Business Process Outsourcing', 'Efficient management of routine business operations to improve productivity and reduce operational costs.'],
-  [Users, 'Back Office Support', 'Data entry, document processing, reporting, and administrative support services.'],
-  [Headphones, 'Customer Support', 'Email support, chat support, and customer service operations.']
+  [LifeBuoy, 'Application & Support Services', 'Providing skilled professionals to manage application support, incident resolution, production operations, and business-critical systems.'],
+  [Code2, 'Technology & Development Services', 'Delivering expert developers, engineers, and technical specialists to build, maintain, and enhance digital solutions.'],
+  [BriefcaseBusiness, 'Business, Data & Financial Services', 'Supporting organizations with business analysis, data management, quality assurance, and capital market expertise.']
 ];
+
+// const services = [
+//   [BarChart3, 'Business Process Outsourcing', 'Efficient management of routine business operations to improve productivity and reduce operational costs.'],
+//   [Users, 'Back Office Support', 'Data entry, document processing, reporting, and administrative support services.'],
+//   [Headphones, 'Customer Support', 'Email support, chat support, and customer service operations.']
+// ];
 
 const benefits = ['Reduced Operational Costs', 'Increased Productivity', 'Faster Turnaround Time', 'Access to Skilled Talent', 'Business Scalability', 'Improved Customer Experience'];
 
