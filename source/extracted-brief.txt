@@ -1,0 +1,225 @@
+[Normal] Build a modern, premium, fully responsive MERN Stack business website for "Anaya Global", a business outsourcing and support services company.
+[Normal] IMPORTANT REQUIREMENTS:
+[Normal] Use MERN Stack Architecture:
+[Normal] - Frontend: React.js + React Router + Tailwind CSS + Axios
+[Normal] - Backend: Node.js + Express.js
+[Normal] - Database: MongoDB + Mongoose
+[Normal] - Authentication: JWT
+[Normal] - Separate client and server folders
+[Normal] - Production-ready code
+[Normal] - Mobile responsive
+[Normal] - SEO friendly
+[Normal] - Clean and maintainable code structure
+[Normal] Branding:
+[Normal] - Company Name: Anaya Global
+[Normal] - Use the uploaded company logo throughout the website
+[Normal] - Create a professional corporate design inspired by the logo colors (Blue, Navy, White, Silver)
+[Normal] - Modern animations and smooth scrolling
+[Normal] - Premium business appearance similar to top outsourcing companies
+[Normal] Website Navigation:
+[Normal] - Home
+[Normal] - About Us
+[Normal] - Services
+[Normal] - Industries We Serve
+[Normal] - Why Choose Us
+[Normal] - Contact Us
+[Normal] ======================================================
+[Normal] HOME PAGE
+[Normal] ======================================================
+[Normal] Hero Section:
+[Normal] Headline:
+[Normal] "Reliable Business Outsourcing Solutions for Growth and Efficiency"
+[Normal] Subheadline:
+[Normal] "Helping businesses streamline operations through cost-effective outsourcing, customer support, virtual assistance, and business process management services."
+[Normal] CTA Buttons:
+[Normal] - Get Started
+[Normal] - Contact Us
+[Normal] Create a modern professional hero section with business-oriented visuals.
+[Normal] ======================================================
+[Normal] ABOUT US
+[Normal] ======================================================
+[Normal] Who We Are
+[Normal] Anaya Global is a business outsourcing company dedicated to helping organizations streamline operations through cost-effective and reliable support services. We focus on delivering quality, efficiency, and customer satisfaction while enabling our clients to concentrate on their core business objectives.
+[Normal] Vision:
+[Normal] To become a trusted global outsourcing partner recognized for excellence, innovation, and client success.
+[Normal] Mission:
+[Normal] To provide high-quality outsourcing solutions that drive business growth and operational efficiency.
+[Normal] ======================================================
+[Normal] SERVICES
+[Normal] ======================================================
+[Normal] Display services in attractive cards with icons.
+[Normal] Services:
+[Normal] 1. Business Process Outsourcing (BPO)
+[Normal] Efficient management of routine business operations to improve productivity and reduce operational costs.
+[Normal] 2. Back Office Support
+[Normal] Data entry, document processing, reporting, and administrative support services.
+[Normal] 3. Customer Support
+[Normal] Email support, chat support, and customer service operations.
+[Normal] 4. Virtual Assistant Services
+[Normal] Dedicated professionals to assist with scheduling, administration, research, and business support tasks.
+[Normal] 5. IT Support Services
+[Normal] Technical assistance, application support, monitoring, and maintenance services.
+[Normal] 6. Data Management
+[Normal] Data collection, validation, processing, and reporting solutions.
+[Normal] ======================================================
+[Normal] INDUSTRIES WE SERVE
+[Normal] ======================================================
+[Normal] Display in modern responsive cards.
+[Normal] Industries:
+[Normal] - Financial Services
+[Normal] - Information Technology
+[Normal] - Healthcare
+[Normal] - Education
+[Normal] - E-Commerce
+[Normal] - Manufacturing
+[Normal] - Logistics
+[Normal] - Startups and SMEs
+[Normal] ======================================================
+[Normal] WHY CHOOSE US
+[Normal] ======================================================
+[Normal] Create premium icon-based feature cards.
+[Normal] 1. Cost Effective Solutions
+[Normal] Reduce operational expenses without compromising quality.
+[Normal] 2. Skilled Professionals
+[Normal] Access to dedicated and experienced resources.
+[Normal] 3. Data Security
+[Normal] Commitment to confidentiality and secure business practices.
+[Normal] 4. Scalability
+[Normal] Flexible solutions that grow with your business needs.
+[Normal] 5. Customer-Centric Approach
+[Normal] Tailored services designed around client requirements.
+[Normal] ======================================================
+[Normal] CLIENT BENEFITS
+[Normal] ======================================================
+[Normal] Display in a visually appealing section.
+[Normal] Benefits:
+[Normal] - Reduced Operational Costs
+[Normal] - Increased Productivity
+[Normal] - Faster Turnaround Time
+[Normal] - Access to Skilled Talent
+[Normal] - Business Scalability
+[Normal] - Improved Customer Experience
+[Normal] ======================================================
+[Normal] FAQ SECTION
+[Normal] ======================================================
+[Normal] Accordion FAQs.
+[Normal] Q: What services does Anaya Global provide?
+[Normal] A: We offer outsourcing, back-office support, customer support, virtual assistance, and business process management services.
+[Normal] Q: How do you ensure data security?
+[Normal] A: We follow strict confidentiality and security practices to protect client information.
+[Normal] Q: Can your services be customized?
+[Normal] A: Yes, all our solutions are tailored to meet specific business requirements.
+[Normal] ======================================================
+[Normal] CONTACT US
+[Normal] ======================================================
+[Normal] Business Information:
+[Normal] Business Name:
+[Normal] Anaya Global
+[Normal] Email:
+[Normal] info@anayaglobal.com
+[Normal] Phone:
+[Normal] +91 8249811823
+[Normal] Location:
+[Normal] India
+[Normal] Display clickable email and phone links.
+[Normal] ======================================================
+[Normal] ENQUIRY FORM
+[Normal] ======================================================
+[Normal] Create a working enquiry form with MongoDB integration.
+[Normal] Fields:
+[Normal] - Full Name
+[Normal] - Company Name
+[Normal] - Email Address
+[Normal] - Phone Number
+[Normal] - Service Required (Dropdown)
+[Normal] - Message
+[Normal] Validation:
+[Normal] - Required fields
+[Normal] - Email validation
+[Normal] - Phone validation
+[Normal] On submit:
+[Normal] - Save enquiry in MongoDB
+[Normal] - Show success notification
+[Normal] - Clear form
+[Normal] ======================================================
+[Normal] DATABASE
+[Normal] ======================================================
+[Normal] Create MongoDB collection:
+[Normal] enquiries
+[Normal] Schema:
+[Normal] {
+[Normal] name,
+[Normal] companyName,
+[Normal] email,
+[Normal] phoneNumber,
+[Normal] serviceRequired,
+[Normal] message,
+[Normal] createdAt
+[Normal] }
+[Normal] ======================================================
+[Normal] BACKEND API
+[Normal] ======================================================
+[Normal] POST /api/enquiries
+[Normal] Store enquiry details in MongoDB.
+[Normal] ======================================================
+[Normal] ADMIN LOGIN
+[Normal] ======================================================
+[Normal] Create a hidden Admin Login page at:
+[Normal] /admin
+[Normal] Only one admin user is required.
+[Normal] Admin credentials must come from environment variables:
+[Normal] ADMIN_EMAIL
+[Normal] ADMIN_PASSWORD
+[Normal] Do NOT hardcode credentials.
+[Normal] Login should generate JWT token.
+[Normal] Protect admin routes.
+[Normal] ======================================================
+[Normal] ADMIN DASHBOARD
+[Normal] ======================================================
+[Normal] After login show all enquiries stored in MongoDB.
+[Normal] Display:
+[Normal] - Name
+[Normal] - Company Name
+[Normal] - Email
+[Normal] - Phone Number
+[Normal] - Service Required
+[Normal] - Message
+[Normal] - Date Submitted
+[Normal] Features:
+[Normal] - Search enquiries
+[Normal] - Sort by latest
+[Normal] - Pagination
+[Normal] - Responsive table
+[Normal] Actions:
+[Normal] 1. Email Lead
+[Normal] Use mailto link.
+[Normal] 2. Call Lead
+[Normal] Use tel link.
+[Normal] No edit functionality required.
+[Normal] No delete functionality required.
+[Normal] Admin should only be able to view enquiries and contact leads.
+[Normal] ======================================================
+[Normal] ENVIRONMENT VARIABLES
+[Normal] ======================================================
+[Normal] MONGODB_URI=
+[Normal] JWT_SECRET=
+[Normal] ADMIN_EMAIL=
+[Normal] ADMIN_PASSWORD=
+[Normal] Do not hardcode secrets.
+[Normal] ======================================================
+[Normal] PROJECT STRUCTURE
+[Normal] ======================================================
+[Normal] project-root/
+[Normal] client/
+[Normal] src/
+[Normal] components/
+[Normal] pages/
+[Normal] services/
+[Normal] assets/
+[Normal] server/
+[Normal] controllers/
+[Normal] routes/
+[Normal] models/
+[Normal] middleware/
+[Normal] config/
+[Normal] Use best coding practices, reusable React components, modern UI/UX, responsive design, optimized performance, SEO-friendly structure, and production-ready code suitable for deployment on Vercel (frontend) and Render/Railway (backend).
