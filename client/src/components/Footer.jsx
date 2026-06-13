@@ -11,7 +11,7 @@ export default function Footer() {
             <span className="text-xl font-bold">Anaya Global</span>
           </div>
           <p className="mt-4 max-w-md text-sm leading-6 text-silver">
-            Reliable outsourcing, business support, customer operations, and data management services for teams that need focused execution.
+            Reliable application support, technology development, and business services delivered by skilled professionals focused on operational excellence and business growth.
           </p>
         </div>
         <div>
