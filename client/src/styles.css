@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+#yo{
+  background-color: #ffffff;
+}
+
+#yo2{
+  color: #000000;
+}
+
 html {
   scroll-behavior: smooth;
 }

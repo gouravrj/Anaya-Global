@@ -33,11 +33,11 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="glass-panel rounded-lg p-8 shadow-soft">
+          <div id="yo" className="glass-panel rounded-lg p-8 shadow-soft">
             <img src={logo} alt="Anaya Global" className="mx-auto h-48 w-48 object-contain md:h-64 md:w-64" />
-            <div className="mt-6 grid gap-3">
+            <div id="yo2" className="mt-6 grid gap-3">
               {['Cost-effective operations', 'Skilled remote support', 'Secure client processes'].map((item) => (
-                <div key={item} className="flex items-center gap-3 rounded-md bg-white/10 px-4 py-3 text-sm font-semibold">
+                <div key={item} className="flex items-center gap-3 rounded-md bg-black/10 px-4 py-3 text-sm font-semibold">
                   <CheckCircle2 className="text-gold" size={18} />
                   {item}
                 </div>

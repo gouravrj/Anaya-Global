@@ -21,7 +21,7 @@ export default function Navbar() {
       <nav className="section-shell flex min-h-20 items-center justify-between gap-6">
         <NavLink to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <img src={logo} alt="Anaya Global" className="h-14 w-14 object-contain" />
-          <span className="text-xl font-bold text-navy">Anaya Global</span>
+          <span className="text-xl font-bold text-navy">ANAYA GLOBAL</span>
         </NavLink>
 
         <div className="flex items-center gap-2 lg:hidden">
