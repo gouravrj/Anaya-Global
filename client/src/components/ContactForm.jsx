@@ -11,7 +11,15 @@ const initialState = {
   message: ''
 };
 
-const services = ['Business Process Outsourcing', 'Back Office Support', 'Customer Support', 'Virtual Assistant Services', 'IT Support Services', 'Data Management'];
+const services = [
+  'Application & Support Roles',
+  'Business & Functional Roles',
+  'Automation Roles',
+  'Development Roles',
+  'Data & Database Roles',
+  'Quality Assurance Roles',
+  'Capital Market & Financial Services Roles'
+];
 
 export default function ContactForm() {
   const [form, setForm] = useState(initialState);

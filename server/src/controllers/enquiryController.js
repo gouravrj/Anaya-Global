@@ -26,3 +26,13 @@ export async function listEnquiries(req, res) {
   const enquiries = await Enquiry.find().sort({ createdAt: -1 });
   res.json({ enquiries });
 }
+
+export async function deleteEnquiry(req, res) {
+  const enquiry = await Enquiry.findByIdAndDelete(req.params.id);
+
+  if (!enquiry) {
+    return res.status(404).json({ message: 'Enquiry not found.' });
+  }
+
+  res.json({ message: 'Enquiry deleted successfully.' });
+}
