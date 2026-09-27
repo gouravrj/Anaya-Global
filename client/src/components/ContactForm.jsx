@@ -18,7 +18,8 @@ const services = [
   'Development Roles',
   'Data & Database Roles',
   'Quality Assurance Roles',
-  'Capital Market & Financial Services Roles'
+  'Capital Market & Financial Services Roles',
+  'Others'
 ];
 
 export default function ContactForm() {

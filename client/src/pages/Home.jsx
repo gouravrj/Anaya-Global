@@ -26,7 +26,7 @@ export default function Home() {
       <section className="hero-bg text-white">
         <div className="section-shell grid min-h-[calc(100vh-80px)] items-center gap-10 py-16 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-gold">Anaya Global</p>
+            <p className="text-xl font-bold uppercase tracking-[0.18em] text-gold md:text-3xl">Anaya Global</p>
             <h1 className="mt-5 max-w-4xl text-4xl font-bold leading-tight md:text-6xl">Reliable Business Outsourcing Solutions for Growth and Efficiency</h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-silver">
               Helping businesses streamline operations through cost-effective outsourcing, customer support, virtual assistance, and business process management services.

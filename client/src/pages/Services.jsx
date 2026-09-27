@@ -1,6 +1,5 @@
 import { Bot, BriefcaseBusiness, ChevronDown, Code2, Database, Landmark, LifeBuoy, ShieldCheck } from 'lucide-react';
 import { useState } from 'react';
-import SectionHeader from '../components/SectionHeader.jsx';
 
 const services = [
   {
@@ -114,9 +113,11 @@ export default function Services() {
 
   return (
     <section className="section-shell py-16">
-      <SectionHeader eyebrow="Services" title="Outsourcing services for dependable execution">
-        Choose focused support services that help your business move faster while staying efficient.
-      </SectionHeader>
+      <div className="max-w-4xl">
+        <p className="text-sm font-bold uppercase tracking-[0.18em] text-azure">Services</p>
+        <h1 className="mt-3 text-2xl font-bold text-navy md:text-3xl">Outsourcing services for dependable execution.</h1>
+        <p className="mt-4 text-base leading-7 text-slate-600">Choose focused support services that help your business move faster while staying efficient.</p>
+      </div>
       <div className="mt-10 grid items-start gap-5 md:grid-cols-2 lg:grid-cols-3">
         {services.map(({ icon: Icon, title, description, roles }) => {
           const isOpen = expanded === title;
